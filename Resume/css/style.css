@@ -1,0 +1,33 @@
+.school{
+    font-size: larger;
+    font-weight: bold;
+}
+.work{
+    font-size: medium;
+    font-weight: bold;
+}
+header{
+    background-color: #957780;
+    padding: 5%;
+}
+
+aside{
+    background-color: #6F6D7C;
+}
+
+header>h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+header>h2{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+main > *{
+    padding:5%;
+}
